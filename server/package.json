@@ -8,7 +8,8 @@
     "dev": "node app.js",
     "postinstall": "prisma generate",
     "db:studio": "prisma studio",
-    "db:migrate": "prisma migrate dev --name"
+    "db:migrate": "prisma migrate dev --name",
+    "vercel-build": "tsc && prisma db push"
   },
   "keywords": [],
   "author": "",
